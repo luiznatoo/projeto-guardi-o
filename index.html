@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Acesso</title>
+</head>
+<body>
+    <main>
+        <div class="topo">
+            <h1>Informação em primeira mão dos onibus da belém rio</h1>
+            <p>Somente pessoas autorizadas!</p>
+        </div>
+        <div>
+            <input type="password" name="chave" id="chave" placeholder="Insura sua chave">
+            <a href=""><button type="button" value="confimar" onClick="somar()">Acessar</button></a>
+            
+        </div>
+    </main>
+    
+    <script>
+        function somar(){
+            var tn1 = window.document.querySelector("#chave")
+            var tn2 = Number(tn1.value)
+            if(tn2 === 10){
+                window.location.replace("linhas.html")
+                alert("acertou")
+            }
+            else{
+                alert("Tente novamente")
+            }
+
+        }
+
+    </script>
+</body>
+</html>

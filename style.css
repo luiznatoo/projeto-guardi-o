@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.topo{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+}
+h1{
+margin: 30px;
+width: 749.81px;
+height: 91.56px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #333333;
+
+transform: rotate(-0.41deg);
+}
+p{
+
+width: 358px;
+height: 30px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 25px;
+line-height: 30px;
+text-align: center;
+margin-bottom: 15px;
+color: #333333;
+}
+#chave{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 15px 83px 15px 20px;
+gap: 14.33px;
+
+margin: 7.5px;
+width: 400px;
+height: 55px;
+
+
+
+border: 1.10204px solid #555555;
+border-radius: 7px;
+outline: none;
+}
+#chave:focus{
+    border: 1px solid rgb(0, 0, 0);
+}
+button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 10px;
+gap: 10px;
+margin: 7.5px;
+
+position: absolute;
+width: 400px;
+height: 55px;
+
+
+background: #0070F3;
+border-radius: 7px;
+color: white;
+font-size: 12pt;
+
+outline: none;
+border: none;
+}
